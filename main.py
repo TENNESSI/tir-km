@@ -3,9 +3,9 @@ from PyQt5.QtWidgets import (QApplication, QMainWindow, QLabel, QVBoxLayout,
                              QWidget, QFileDialog, QPushButton, QHBoxLayout)
 from PyQt5.QtGui import QPixmap, QPainter, QColor, QPen
 from PyQt5.QtCore import Qt, QPoint
-import os
-os.environ['QT_QPA_PLATFORM_PLUGIN_PATH'] = 'C:\\\\Users\\Константин\\AppData\\Local\\Programs\\Python\\Python310' \
-                                            + '\\Lib\\site-packages\\PyQt5\\Qt5\\plugins'
+# import os
+# os.environ['QT_QPA_PLATFORM_PLUGIN_PATH'] = 'C:\\\\Users\\Константин\\AppData\\Local\\Programs\\Python\\Python312' \
+#                                             + '\\Lib\\site-packages\\PyQt5\\Qt5\\plugins'
 
 
 class TargetApp(QMainWindow):
